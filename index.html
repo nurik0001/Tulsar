@@ -14,13 +14,18 @@
                     <img src="images/Group (1).png" alt="Tulsar logo">
                 </a>
                 <nav class="nav">
+                    <div class="mobile-menu-button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                     <ul class="nav__list">
-                        <li><a href="#" class="nav__link active">Главная</a></li>
-                        <li><a href="#" class="nav__link">О Нас</a></li>
-                        <li><a href="#" class="nav__link">Услуги</a></li>
-                        <li><a href="#" class="nav__link">Преимущества</a></li>
-                        <li><a href="#" class="nav__link">Партнеры</a></li>
-                        <li><a href="#" class="nav__link">Контакты</a></li>
+                        <li><a href="#hero" class="nav__link active">Главная</a></li>
+                        <li><a href="#welcome" class="nav__link">О Нас</a></li>
+                        <li><a href="#services" class="nav__link">Услуги</a></li>
+                        <li><a href="#our-advantages" class="nav__link">Преимущества</a></li>
+                        <li><a href="#partners" class="nav__link">Партнеры</a></li>
+                        <li><a href="#contacts" class="nav__link">Контакты</a></li>
                     </ul>
                 </nav>
                 <a href="tel:+77079688334" class="header__phone">
@@ -33,7 +38,7 @@
 
     <main>
         <!-- Hero section -->
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="container">
                 <div class="hero__content">
                     <h1>Осуществляем грузоперевозки</h1>
@@ -61,7 +66,7 @@
         </section>
 
         <!-- Welcome section -->
-        <section class="welcome">
+        <section class="welcome" id="welcome">
             <div class="welcome__content">
                 <div class="welcome__map">
                     <img src="images/map.jpg" alt="World Map">
@@ -74,7 +79,7 @@
         </section>
 
         <!-- Services section -->
-        <section class="services">
+        <section class="services" id="services">
             <div class="container">
                 <div class="services__grid">
                     <div class="service-card">
@@ -108,22 +113,27 @@
                 </div>
             </div>
 
-            
+            <br>
 
             <section class="our-services">
-                <div class="service-info__text-bg"> 
-                    
+                <div class="our-services__left">
+                    <h2 class="our-services__title">Наши услуги</h2>
+                    <ul class="services-menu">
+                        <li><a href="#" class="services-menu__item active">Перевозка сборного груза</a></li>
+                        <li><a href="#" class="services-menu__item">Перевозка личных вещей</a></li>
+                        <li><a href="#" class="services-menu__item">Международные перевозки</a></li>
+                        <li><a href="#" class="services-menu__item">Специализированные перевозки</a></li>
+                    </ul>
                 </div>
-                           
-           
-                    
-                    <div class="our-services__right">
-                        <div class="service-info">
-                            <h3 class="service-info__title">Перевозка сборного груза</h3>
-                            <p class="service-info__text">
-                                С 2017 года занимаемся доставкой груза на территориях России, Беларусь и Казахстана. Наша компания предоставляет высококачественные услуги автоперевозок с 10-летним опытом на рынке. Мы специализируемся на экспресс-доставке, грузоперевозках на дальние расстояния и специализированных перевозках. Наша команда профессионалов гарантирует надежность, безопасность и своевременную доставку грузов любого типа.
-                            </p>
-                        </div>
+                
+                <div class="our-services__right">
+                    <div class="service-info">
+                        <img src="images/Black and White Circle Icon Business Logo (8) 1.png" alt="Иконка" class="service-info__icon">
+                        <div class="service-info__subtitle">Перевозка сборного груза</div>
+                        <h3 class="service-info__title">Перевозка сборного груза</h3>
+                        <p class="service-info__text">
+                            С 2017 года занимаемся доставкой груза на территориях России, Беларусь и Казахстана. Наша компания предоставляет высококачественные услуги автоперевозок с 10-летним опытом на рынке. Мы специализируемся на экспресс-доставке, грузоперевозках на дальние расстояния и специализированных перевозках. Наша команда профессионалов гарантирует надежность, безопасность и своевременную доставку грузов любого типа.
+                        </p>
                     </div>
                 </div>
             </section>
@@ -132,7 +142,7 @@
 
         
         <!-- Advantages section -->
-        <section class="our-advantages">
+        <section class="our-advantages" id="our-advantages">
             <div class="container">
                 <h2>Наши преимущество</h2>
                 <div class="advantages-grid">
@@ -182,7 +192,7 @@
         </section>
 
         <!-- Partners section -->
-        <section class="partners">
+        <section class="partners" id="partners">
             <div class="container">
                 <h2 class="partners__title">Наши партнеры</h2>
                 <div class="partners__grid">
@@ -203,7 +213,7 @@
         </section>
 
         <!-- Contacts section -->
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <div class="contacts__map">
                 <div class="contacts__info">
                     <h2>Контакты</h2>
@@ -213,11 +223,11 @@
                             <span class="contacts__icon phone"></span>
                             +7 707 988 8334
                         </a>
-                        <a href="#" class="contacts__item">
+                        <a href="https://wa.me/77079888334" class="contacts__item">
                             <span class="contacts__icon whatsapp"></span>
                             Напишите What's App
                         </a>
-                        <a href="#" class="contacts__item">
+                        <a href="https://instagram.com/tulsar.kz" class="contacts__item">
                             <span class="contacts__icon instagram"></span>
                             Instagram
                         </a>
@@ -291,5 +301,6 @@
             </div>
         </div>
     </footer>
+    <script src="scripts/main.js"></script>
 </body>
 </html> 
